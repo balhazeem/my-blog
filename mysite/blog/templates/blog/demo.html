@@ -1,0 +1,199 @@
+{% extends 'blog/base.html' %}
+
+ 
+
+ 
+
+ 
+
+{% block content %}
+
+<html>
+
+<head>
+
+<style>
+
+ 
+
+div.gallery {
+
+ 
+
+              margin: 5px;
+
+ 
+
+              border: 1px
+
+              solid #ccc;
+
+ 
+
+              float: left;
+
+ 
+
+              width: 180px;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+div.gallery:hover {
+
+ 
+
+              border: 1px solid #777;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+div.gallery img {
+
+ 
+
+              width: 100%; height: auto;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+div.desc {
+
+ 
+
+              padding:
+
+              15px;
+
+              text-align: center;
+
+ 
+
+}
+
+ 
+
+</style>
+
+</head>
+
+<body>
+
+ 
+
+<div class="gallery">
+
+              <a target="_blank" href="img_5terre.jpg">
+
+                           <img src="img_5terre.jpg" alt="Cinque Terre" width="300" height="200">
+
+ 
+
+              </a>
+
+              <div class="desc">Add a description of the image here</div>
+
+</div>
+
+ 
+
+ 
+
+ 
+
+<div class="gallery">
+
+              <a target="_blank" href="forest.jpg">
+
+                           <img src="https://static1.squarespace.com/static/53040435e4b0c7c348ba3b1e/t/53bf7643e4b00edee80b76d4/1405056602719/djangogirls.png" alt="Forest" width="300" height="200">
+
+              </a>
+
+              <div class="desc">Add a description of the image here</div>
+
+</div>
+
+ 
+
+<div class="gallery">
+
+              <a target="_blank" href="lights.jpg">
+
+                           <img src="lights.jpg" alt="Northern Lights" width="300" height="200">
+
+ 
+
+              </a>
+
+ 
+
+              <div class="desc">Add a description of the image here</div>
+
+ 
+
+</div>
+
+ 
+
+ 
+
+ 
+
+<div class="gallery">
+
+ 
+
+              <a target="_blank" href="mountains.jpg">
+
+                           <img src="mountains.jpg"
+
+alt="Mountains"
+
+width="300"
+
+height="200">
+
+ 
+
+              </a>
+
+ 
+
+              <div class="desc">Add a description of the image here</div>
+
+ 
+
+</div>
+
+ 
+
+ 
+
+ 
+
+</body>
+
+</html>
+
+{% endblock %}
